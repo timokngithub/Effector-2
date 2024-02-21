@@ -2,7 +2,7 @@
 
 int main() {
 	while (1) {
-		HDC hdc = GetDC();
+		HDC hdc = GetDC(0);
 		int x = SM_CXSCREEN;
 		int y = SM_CYSCREEN;
 		int w = GetSystemMetrics(0);
